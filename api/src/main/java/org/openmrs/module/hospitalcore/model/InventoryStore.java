@@ -80,7 +80,8 @@ public class InventoryStore implements  Serializable {
 	public void setCode(String code) {
 		this.code = code;
 	}
-	public Set<InventoryStore> getParent() {
+
+	public Set<InventoryStore> getParentStores() {
 		return parentStores;
 	}
 	public void setParentStores(Set<InventoryStore> parentStores) {
